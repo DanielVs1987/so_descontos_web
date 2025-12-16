@@ -81356,19 +81356,21 @@ if(i==null)i=A.Ay()
 else{r=A.aL("Pre\xe7o: ",o,o,$.lc(),o)
 i=B.c.a1(i,2)
 i=A.hc(i,".",",")
-i=A.eI(A.cd(A.f4(A.a([r,A.it(o,B.j,20,2,"R$ "+A.i(i))],t.D),B.H,B.R,B.P),o,o),1)}r=t.D
-j=A.eI(A.Yg(A.d9(o,A.f4(A.a([k,A.eI(new A.aw(B.CI,A.e2(A.a([s,i,A.eI(A.M8(new A.aw(B.lf,A.aL("Descri\xe7\xe3o: "+B.d.a3(p.a.f.d,0,200)+"...\n\nClique para ver mais detalhes!",15,B.bo,$.pW().dY(B.m),B.aA),o)),1)],r),B.bu,B.bQ,B.P),o),1)],r),B.H,B.R,B.P),B.u,j,o,o,o,o,o,o,o,o,o),B.c9,new A.w7(o)),1)
-i=p.a
-s=i.d
-if(i.f.r==="0%")m=A.Ay()
+i=A.eI(A.cd(A.f4(A.a([r,A.it(o,B.j,20,2,"R$ "+A.i(i))],t.D),B.H,B.R,B.P),o,o),1)}r=p.a.f.d
+r=r.length<200?r:B.d.a3(r,0,200)
+q=t.D
+j=A.eI(A.Yg(A.d9(o,A.f4(A.a([k,A.eI(new A.aw(B.CI,A.e2(A.a([s,i,A.eI(A.M8(new A.aw(B.lf,A.aL("Descri\xe7\xe3o: "+r+"...\n\nClique para ver mais detalhes!",15,B.bo,$.pW().dY(B.m),B.aA),o)),1)],q),B.bu,B.bQ,B.P),o),1)],q),B.H,B.R,B.P),B.u,j,o,o,o,o,o,o,o,o,o),B.c9,new A.w7(o)),1)
+r=p.a
+i=r.d
+if(r.f.r==="0%")m=A.Ay()
 else{m=A.bw(a,o,m).w
 k=p.a.f
-i=k.f
+s=k.f
 k=k.r
-if(i==="SEMCUPOM")k=A.e2(A.a([A.aL(n,o,o,$.pW(),o),A.it(o,$.asz(),50,2,k)],r),B.H,B.bQ,B.cn)
-else{q=$.pW()
-k=A.e2(A.a([A.aL("Cupom:",o,o,q,o),A.it(o,B.j,25,2,i),B.Mp,A.f4(A.a([A.aL(n,o,o,q,o),A.it(o,$.asz(),25,2,k)],r),B.H,B.R,B.cn)],r),B.H,B.bQ,B.cn)}k=A.Yg(A.avi(A.d9(o,A.axr(1.5707963267948966,new A.eG(new A.a8(0,m.a.b*0.18,0,1/0),new A.aw(B.CV,k,o),o)),B.u,s,o,o,o,o,o,o,o,o,o),1/0),B.c9,new A.w7(o))
-m=k}return A.IV(!1,!0,A.kC(B.bq,A.a([A.cd(A.f4(A.a([j,new A.y8(s,o),m,new A.y8(p.a.d,o)],r),B.H,B.R,B.P),l.a.b*0.2,1/0)],r),B.bX),o,!0,o,o,o,o,o,o,o,o,o,new A.alF(p,a),o,o,o,o)}}
+if(s==="SEMCUPOM")k=A.e2(A.a([A.aL(n,o,o,$.pW(),o),A.it(o,$.asz(),50,2,k)],q),B.H,B.bQ,B.cn)
+else{r=$.pW()
+k=A.e2(A.a([A.aL("Cupom:",o,o,r,o),A.it(o,B.j,25,2,s),B.Mp,A.f4(A.a([A.aL(n,o,o,r,o),A.it(o,$.asz(),25,2,k)],q),B.H,B.R,B.cn)],q),B.H,B.bQ,B.cn)}k=A.Yg(A.avi(A.d9(o,A.axr(1.5707963267948966,new A.eG(new A.a8(0,m.a.b*0.18,0,1/0),new A.aw(B.CV,k,o),o)),B.u,i,o,o,o,o,o,o,o,o,o),1/0),B.c9,new A.w7(o))
+m=k}return A.IV(!1,!0,A.kC(B.bq,A.a([A.cd(A.f4(A.a([j,new A.y8(i,o),m,new A.y8(p.a.d,o)],q),B.H,B.R,B.P),l.a.b*0.2,1/0)],q),B.bX),o,!0,o,o,o,o,o,o,o,o,o,new A.alF(p,a),o,o,o,o)}}
 A.alH.prototype={
 $1(a){var s,r=this.a
 r.am(new A.alG())
